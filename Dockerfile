@@ -1,5 +1,5 @@
 FROM ubcdsci/jupyterlab
 
-# Install Jupyter, JupterLab, R & the IRkernel
+# install conda
 RUN conda install --yes --quiet --channel conda-forge r-tidyverse
 
